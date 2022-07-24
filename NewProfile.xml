@@ -1,0 +1,80 @@
+<Cluster>
+<Name>HM8118 Profile</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>Bias Profile</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name> Bias Source (OFF)</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name> Bias Type (Voltage)</Name>
+<Val>1</Val>
+</U8>
+<DBL>
+<Name>Bias Level (0)</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Measurement Profile</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>Operation Mode (0: Auto)</Name>
+<Val>11</Val>
+</U16>
+<U16>
+<Name>Circuit Type (2: Auto)</Name>
+<Val>1</Val>
+</U16>
+<U8>
+<Name>Manual Range (1:Range 1 and 25 Ohms)</Name>
+<Val>6</Val>
+</U8>
+<Boolean>
+<Name>Auto Range (T: Enable)</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Signal Profile</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Frequency (1kHz)</Name>
+<Val>1006.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Measuring Voltage (1V)</Name>
+<Val>1.01000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Integration Profile</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>Averaging (0: Off)</Name>
+<Val>2</Val>
+</U16>
+<I32>
+<Name>Averaging Number (2)</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>Time (100ms)</Name>
+<Val>94</Val>
+</I32>
+<U16>
+<Name>Rate (0: Fast)</Name>
+<Val>1</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Trigger Profile</Name>
+<NumElts>1</NumElts>
+<U16>
+<Name>Trigger Mode (0: Continuous)</Name>
+<Val>2</Val>
+</U16>
+</Cluster>
+</Cluster>
