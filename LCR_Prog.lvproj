@@ -21,10 +21,12 @@
 			<Item Name="Config_OpenMake.vi" Type="VI" URL="../Sources/Config_OpenMake.vi"/>
 			<Item Name="Config_Populate.vi" Type="VI" URL="../Sources/Config_Populate.vi"/>
 			<Item Name="Config_ReadCreateXML.vi" Type="VI" URL="../Sources/Config_ReadCreateXML.vi"/>
+			<Item Name="Config_SaveKeys.vi" Type="VI" URL="../Sources/Config_SaveKeys.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="GEN_DQ.vim" Type="VI" URL="../GEN_DQ.vim"/>
 			<Item Name="GEN_States.ctl" Type="VI" URL="../GEN_States.ctl"/>
+			<Item Name="GEN_TimerPerS.vi" Type="VI" URL="../Sources/GEN_TimerPerS.vi"/>
 			<Item Name="Profile_ReadGUI.vi" Type="VI" URL="../Sources/Profile_ReadGUI.vi"/>
 		</Item>
 		<Item Name="HM8118 Aux" Type="Folder">
@@ -43,6 +45,7 @@
 		</Item>
 		<Item Name="LCR_Main.vi" Type="VI" URL="../LCR_Main.vi"/>
 		<Item Name="LCR_SendAll.vi" Type="VI" URL="../Sources/LCR_SendAll.vi"/>
+		<Item Name="Mode_Enum.ctl" Type="VI" URL="../Sources/Mode_Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Hameg HM8118.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Hameg HM8118/Hameg HM8118.lvlib"/>
@@ -54,6 +57,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
