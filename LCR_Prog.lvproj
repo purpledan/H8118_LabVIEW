@@ -23,13 +23,18 @@
 			<Item Name="Config_ReadCreateXML.vi" Type="VI" URL="../Sources/Config_ReadCreateXML.vi"/>
 			<Item Name="Config_SaveKeys.vi" Type="VI" URL="../Sources/Config_SaveKeys.vi"/>
 		</Item>
+		<Item Name="FileIO" Type="Folder">
+			<Item Name="LCR_InsertMeasurements.vi" Type="VI" URL="../Sources/LCR_InsertMeasurements.vi"/>
+		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="GEN_DQ.vim" Type="VI" URL="../GEN_DQ.vim"/>
+			<Item Name="GEN_ResetTimer.vi" Type="VI" URL="../Sources/GEN_ResetTimer.vi"/>
 			<Item Name="GEN_States.ctl" Type="VI" URL="../GEN_States.ctl"/>
 			<Item Name="GEN_TimerPerS.vi" Type="VI" URL="../Sources/GEN_TimerPerS.vi"/>
 			<Item Name="Profile_ReadGUI.vi" Type="VI" URL="../Sources/Profile_ReadGUI.vi"/>
 		</Item>
 		<Item Name="HM8118 Aux" Type="Folder">
+			<Item Name="LCR_ReadAll.vi" Type="VI" URL="../Sources/LCR_ReadAll.vi"/>
 			<Item Name="LCR_SelectiveWriter.vi" Type="VI" URL="../Sources/LCR_SelectiveWriter.vi"/>
 			<Item Name="LCR_SelectWrite.vi" Type="VI" URL="../Sources/LCR_SelectWrite.vi"/>
 			<Item Name="LCR_WriteBias.vi" Type="VI" URL="../Sources/LCR_WriteBias.vi"/>
@@ -45,6 +50,7 @@
 		</Item>
 		<Item Name="LCR_Main.vi" Type="VI" URL="../LCR_Main.vi"/>
 		<Item Name="LCR_SendAll.vi" Type="VI" URL="../Sources/LCR_SendAll.vi"/>
+		<Item Name="Measurement_Cluster.ctl" Type="VI" URL="../Sources/Measurement_Cluster.ctl"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../Sources/Mode_Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
