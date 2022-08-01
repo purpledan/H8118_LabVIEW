@@ -49,6 +49,7 @@
 			<Item Name="Profile_Read.vi" Type="VI" URL="../Sources/Profile_Read.vi"/>
 			<Item Name="Profile_UpdateGUI.vi" Type="VI" URL="../Sources/Profile_UpdateGUI.vi"/>
 			<Item Name="Profile_Write.vi" Type="VI" URL="../Sources/Profile_Write.vi"/>
+			<Item Name="Untitled 4.vi" Type="VI" URL="../Sources/Untitled 4.vi"/>
 		</Item>
 		<Item Name="LCR_Main.vi" Type="VI" URL="../LCR_Main.vi"/>
 		<Item Name="Measurement_Cluster.ctl" Type="VI" URL="../Sources/Measurement_Cluster.ctl"/>
