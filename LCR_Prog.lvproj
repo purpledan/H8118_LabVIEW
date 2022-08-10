@@ -15,6 +15,7 @@
 			<Item Name="Data_Cluster.ctl" Type="VI" URL="../Sources/Data_Cluster.ctl"/>
 		</Item>
 		<Item Name="ConfigVI" Type="Folder">
+			<Item Name="Config_CheckGlobals.vi" Type="VI" URL="../Sources/Config_CheckGlobals.vi"/>
 			<Item Name="Config_CheckHardware.vi" Type="VI" URL="../Sources/Config_CheckHardware.vi"/>
 			<Item Name="Config_LoadCreate.vi" Type="VI" URL="../Sources/Config_LoadCreate.vi"/>
 			<Item Name="Config_LoadKeys.vi" Type="VI" URL="../Sources/Config_LoadKeys.vi"/>
@@ -59,6 +60,7 @@
 			<Item Name="Profile_Write.vi" Type="VI" URL="../Sources/Profile_Write.vi"/>
 			<Item Name="Untitled 4.vi" Type="VI" URL="../Sources/Untitled 4.vi"/>
 		</Item>
+		<Item Name="LCR_GetGlobals.vi" Type="VI" URL="../Sources/LCR_GetGlobals.vi"/>
 		<Item Name="LCR_Main.vi" Type="VI" URL="../LCR_Main.vi"/>
 		<Item Name="Measurement_Cluster.ctl" Type="VI" URL="../Sources/Measurement_Cluster.ctl"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../Sources/Mode_Enum.ctl"/>
